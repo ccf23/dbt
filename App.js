@@ -1,8 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
-import { Button, SectionList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { SafeAreaView, FlatList, SectionList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, HeaderBackButton } from '@react-navigation/native-stack';
 import { skills } from './skills.json'; 
+import { questions } from './questions.json'; 
 import React, {useLayoutEffect} from 'react'; 
 
 
@@ -11,6 +12,7 @@ const Stack = createNativeStackNavigator();
 function HomeScreen({ navigation }) {
   let quiz = async () => {
     navigation.navigate("Question", {
+      id: 1,
       questionNum: 1,
       answer: "",
       path: []
@@ -95,46 +97,96 @@ function ListDetailScreen({route, navigation}) {
   );
 }
 
-class DoneScreen extends React.Component {
-  static navigationOptions = () => {
-    return{
-      headerLeft:(<HeaderBackButton onPress={()=>{navigation.navigate("Welcome")}}/>)
-    }
-  };
+function DoneScreen({route, navigation}) {
+  let skillIds = route.params;
+  let skillList =[];
+  let count = 0; 
 
-  render() {
-    return (
-      <View>
+  skillIds.forEach(element => {
+    const [sectionId, itemId] = element.split(":");
+    let section = filterById(skills, parseInt(sectionId));
+    let item = filterById(section.data, parseInt(itemId)); 
+    let suggestion = {
+      id: count,
+      sectionId: sectionId,
+      itemId: itemId,
+      item: item
+    }
+    skillList.push(suggestion);
+    count++; 
+  });
+
+  return (
+    <View style={questionStyles.mainContainer}>
+      <View style={questionStyles.questionContainer}>
         <Text style={{color: '#888', fontSize: 35, textAlign: 'center'}}>Suggested Skills to Practice</Text>
       </View>
-    )
-  };
+
+      <SafeAreaView style={questionStyles.optionContainer}>
+      <FlatList
+        data={skillList}
+        renderItem={({ item }) => (
+          <TouchableOpacity 
+            key={item.id} 
+            onPress={() => {
+              navigation.navigate("ListDetail", {
+                sectionId: item.sectionId,
+                itemId: item.itemId
+              })
+            }}
+          >
+            <Text style={styles.row}>{item.item.name}</Text>
+          </TouchableOpacity>
+        )}
+        keyExtractor={item => item.id}
+      />
+      </SafeAreaView>
+    </View>
+  )
 }
 
 function QuestionScreen({route, navigation}) {
   let question = route.params;  
+  let curQuestion = filterById(questions, question.id); 
 
-  let nextQuestion = () => {
+  let nextQuestion = (option) => {
     if(question.questionNum >= 5){
-      navigation.navigate("Done", {
-        questionNum: question.questionNum+1,
-        answer: "answer question 5",
-        path: "test"
-      });
+      navigation.navigate("Done", (option.skills));
     } else {
       navigation.navigate("Question", {
+        id: option.nextQuestion,
         questionNum: question.questionNum+1,
-        answer: "answer question " + question.questionNum,
+        answer: option.answer,
         path: "test"
       });
     }    
   }
   return (
-    <View style={{ flex: 1 }}>
-      <Text>Question {question.questionNum}</Text>
-      <TouchableOpacity onPress={nextQuestion} style={styles.button}>
-        <Text>Next Question</Text>
-      </TouchableOpacity>
+    <View style={questionStyles.mainContainer}>
+      <View style={questionStyles.questionContainer}>
+        <Text style={{color: '#888', fontSize: 35, textAlign: 'center'}}>{curQuestion.question}</Text>
+      </View>
+
+      <SafeAreaView style={questionStyles.optionContainer}>
+        <FlatList
+          data={curQuestion.options}
+          renderItem={({ item }) => (
+            <TouchableOpacity 
+              key={item.id} 
+              onPress={() => nextQuestion(item)}
+            >
+              <Text style={questionStyles.row}>{item.answer}</Text>
+            </TouchableOpacity>
+          )}
+          keyExtractor={item => item.id}
+        />
+      </SafeAreaView>
+
+      {/* <View styles={questionStyles.nextContainer}>
+        <TouchableOpacity onPress={nextQuestion} style={questionStyles.button}>
+          <Text>Next Question</Text>
+        </TouchableOpacity>
+      </View> */}
     </View>
   );
 }
@@ -232,5 +284,51 @@ const lstStyles = StyleSheet.create({
     marginBottom: 5,
     color: '#888', 
     fontSize: 20, 
+  },
+});
+
+const questionStyles = StyleSheet.create({
+  mainContainer: {
+    flex:1,
+  },
+  questionContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  optionContainer: {
+    flex: 2,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'stretch'
+  },
+  nextContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 30,
+  },
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  row: {
+    padding: 15,
+    marginBottom: 5,
+    backgroundColor: 'skyblue',
+  },
+  header: {
+    padding: 15,
+    marginBottom: 5,
+    backgroundColor: 'steelblue',
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  button: {
+    backgroundColor: "blue",
+    padding: 20,
+    borderRadius: 5,
   },
 });
