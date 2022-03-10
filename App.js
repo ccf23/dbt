@@ -14,8 +14,7 @@ function HomeScreen({ navigation }) {
     navigation.navigate("Question", {
       id: 1,
       questionNum: 1,
-      answer: "",
-      path: []
+      answer: ""
     });
   }
 
@@ -26,7 +25,7 @@ function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <View >
-        <Text style={{color: '#888', fontSize: 35, textAlign: 'center'}}>Mental Health Excerises using DBT</Text>
+        <Text style={styles.titleText}>Mental Health Excerises using DBT</Text>
         <StatusBar style="auto" />
       </View>
       <View style={styles.btnContainer}>
@@ -45,7 +44,7 @@ function HomeScreen({ navigation }) {
 
 function ListScreen({navigation}) {
   return (
-    <View style={{ height: "100%" }}>
+    <View style={lstStyles.lstContainer}>
       <SectionList
         style={lstStyles.lstContainer}
         sections={skills}
@@ -53,7 +52,7 @@ function ListScreen({navigation}) {
           <TouchableOpacity 
             key={item.id} 
             onPress={() => {
-              navigation.navigate("ListDetail", {
+              navigation.navigate("Skill", {
                 sectionId: section.id,
                 itemId: item.id
               })
@@ -78,20 +77,20 @@ function filterById(jsonObject, id) {
 }
 
 
-function ListDetailScreen({route, navigation}) {
+function SkillDetailScreen({route, navigation}) {
   let itemParams = route.params; 
   let section = filterById(skills, itemParams.sectionId); 
   let item = filterById(section.data, itemParams.itemId); 
   return (
-    <View style={{ height: "100%", alignContent: "center", justifyContent: "center" }}>
-      <Text style={lstStyles.lstDetailHeader}>{section.title}: {item.name}</Text>
-      <View style={{ height: "90%"}}>
-        <View style={{height: "50%"}}>
-          <Text style={lstStyles.lstDetailRecord}>Description: {item.description}</Text>
-        </View>
-        <View style={{height: "50%"}}>
-          <Text style={lstStyles.lstDetailRecord}>Example: {item.example}</Text>
-        </View>
+    <View style={lstStyles.lstContainer}>
+      <View style={lstStyles.headContainer}>
+        <Text style={lstStyles.lstDetailHeader}>{section.title}: {item.name}</Text>
+      </View>
+      <View style={lstStyles.descContainer}>
+        <Text style={lstStyles.lstDetailRecord}>Description: {item.description}</Text>
+      </View>
+      <View style={lstStyles.exContainer}>
+        <Text style={lstStyles.lstDetailRecord}>Example: {item.example}</Text>
       </View>
     </View>
   );
@@ -119,7 +118,7 @@ function DoneScreen({route, navigation}) {
   return (
     <View style={questionStyles.mainContainer}>
       <View style={questionStyles.questionContainer}>
-        <Text style={{color: '#888', fontSize: 35, textAlign: 'center'}}>Suggested Skills to Practice</Text>
+        <Text style={questionStyles.questionText}>Suggested Skills to Practice</Text>
       </View>
 
       <SafeAreaView style={questionStyles.optionContainer}>
@@ -129,7 +128,7 @@ function DoneScreen({route, navigation}) {
           <TouchableOpacity 
             key={item.id} 
             onPress={() => {
-              navigation.navigate("ListDetail", {
+              navigation.navigate("Skill", {
                 sectionId: item.sectionId,
                 itemId: item.itemId
               })
@@ -150,21 +149,20 @@ function QuestionScreen({route, navigation}) {
   let curQuestion = filterById(questions, question.id); 
 
   let nextQuestion = (option) => {
-    if(question.questionNum >= 5){
-      navigation.navigate("Done", (option.skills));
+    if(option.nextQuestion==-1){
+      navigation.replace("Done", (option.skills));
     } else {
       navigation.navigate("Question", {
         id: option.nextQuestion,
         questionNum: question.questionNum+1,
-        answer: option.answer,
-        path: "test"
+        answer: option.answer
       });
     }    
   }
   return (
     <View style={questionStyles.mainContainer}>
       <View style={questionStyles.questionContainer}>
-        <Text style={{color: '#888', fontSize: 35, textAlign: 'center'}}>{curQuestion.question}</Text>
+        <Text style={questionStyles.questionText}>{curQuestion.question}</Text>
       </View>
 
       <SafeAreaView style={questionStyles.optionContainer}>
@@ -181,12 +179,6 @@ function QuestionScreen({route, navigation}) {
           keyExtractor={item => item.id}
         />
       </SafeAreaView>
-
-      {/* <View styles={questionStyles.nextContainer}>
-        <TouchableOpacity onPress={nextQuestion} style={questionStyles.button}>
-          <Text>Next Question</Text>
-        </TouchableOpacity>
-      </View> */}
     </View>
   );
 }
@@ -198,7 +190,7 @@ export default function App() {
         <Stack.Screen name="Welcome" component={HomeScreen} />
         <Stack.Screen name="List" component={ListScreen} />
         <Stack.Screen name="Question" component={QuestionScreen} />
-        <Stack.Screen name="ListDetail" component={ListDetailScreen} />
+        <Stack.Screen name="Skill" component={SkillDetailScreen} />
         <Stack.Screen name="Done" component={DoneScreen} />
       </Stack.Navigator>
     </NavigationContainer>
@@ -247,29 +239,28 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  titleText: {
+    color: '#888', 
+    fontSize: 35, 
+    textAlign: 'center'
+  }
 });
 
 const lstStyles = StyleSheet.create({
   lstContainer: {
     flex:1,
   },
-  container: {
-    flex: 1,
+  headContainer: {
+    flex:1,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center'
   },
-  row: {
-    padding: 15,
-    marginBottom: 5,
-    backgroundColor: 'skyblue',
+  descContainer: {
+    flex:2,
   },
-  header: {
-    padding: 15,
-    marginBottom: 5,
-    backgroundColor: 'steelblue',
-    color: 'white',
-    fontWeight: 'bold',
+  exContainer: {
+    flex:2,
   },
   lstDetailHeader: {
     padding: 15,
@@ -331,4 +322,9 @@ const questionStyles = StyleSheet.create({
     padding: 20,
     borderRadius: 5,
   },
+  questionText: {
+    color: '#888', 
+    fontSize: 35, 
+    textAlign: 'center'
+  }
 });

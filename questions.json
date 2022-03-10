@@ -85,7 +85,7 @@
                 {
                     "id": 4, 
                     "answer": "Bored",
-                    "nextQuestion": 3,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
