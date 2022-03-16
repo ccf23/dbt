@@ -1,4 +1,4 @@
-# dbt
+# DBT Skills App 
 
 ##Ubuntu 20.04
 
