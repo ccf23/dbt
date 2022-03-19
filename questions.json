@@ -2,153 +2,690 @@
     "questions": [
         {
             "id": 1,
-            "question": "What is your emotional State? 1",
+            "question": "How are you now?",
             "options": [
                 {
-                    "id": 1, 
+                    "id": 1,
                     "answer": "Happy",
-                    "nextQuestion": 10,
+                    "nextQuestion": 1000,
                     "skills": ["1:1", "1:2"]
                 },
                 {
-                    "id": 2, 
+                    "id": 2,
                     "answer": "Sad",
-                    "nextQuestion": 4,
+                    "nextQuestion": 2000,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
-                    "id": 3, 
-                    "answer": "Angry",
-                    "nextQuestion": 20,
+                    "id": 3,
+                    "answer": "Mad",
+                    "nextQuestion": 3000,
                     "skills": ["2:1", "2:2"]
                 },
                 {
-                    "id": 4, 
-                    "answer": "Bored",
-                    "nextQuestion": 3,
+                    "id": 4,
+                    "answer": "Stressed",
+                    "nextQuestion": 4000,
+                    "skills": ["2:1", "2:2", "2:3"]
+                },
+                {
+                    "id": 5,
+                    "answer": "In crisis",
+                    "nextQuestion": 5000,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
         },
         {
-            "id": 10,
-            "question": "What is your emotional State? 10",
+            "id": 1000,
+            "question": "How intensly happy are you?",
             "options": [
                 {
-                    "id": 1, 
-                    "answer": "Happy",
-                    "nextQuestion": 10,
+                    "id": 1,
+                    "answer": "Low: Relaxed",
+                    "nextQuestion": 1100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
-                    "id": 2, 
-                    "answer": "Sad",
-                    "nextQuestion": 4,
+                    "id": 2,
+                    "answer": "Medium: Impulsive or out of focus",
+                    "nextQuestion": 1200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
-                    "id": 3, 
-                    "answer": "Angry",
-                    "nextQuestion": 20,
+                    "id": 3,
+                    "answer": "High: Energetic",
+                    "nextQuestion": 1300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
-                    "id": 4, 
-                    "answer": "Bored",
-                    "nextQuestion": 3,
+                    "id": 4,
+                    "answer": "So happy I can't do what I need to do",
+                    "nextQuestion": 1400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
         },
         {
-            "id": 4,
-            "question": "What is your emotional State? 4",
+            "id": 2000,
+            "question": "How intensly sad are you?",
             "options": [
                 {
-                    "id": 1, 
-                    "answer": "Happy",
-                    "nextQuestion": 10,
+                    "id": 1,
+                    "answer": "Low: Relaxed",
+                    "nextQuestion": 2100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
-                    "id": 2, 
-                    "answer": "Sad",
-                    "nextQuestion": 4,
+                    "id": 2,
+                    "answer": "Medium: Impulsive or out of focus",
+                    "nextQuestion": 2200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
-                    "id": 3, 
-                    "answer": "Angry",
-                    "nextQuestion": 20,
+                    "id": 3,
+                    "answer": "High: Worked-up",
+                    "nextQuestion": 2300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
-                    "id": 4, 
-                    "answer": "Bored",
-                    "nextQuestion": -1,
+                    "id": 4,
+                    "answer": "Higher than high: Can't do anything",
+                    "nextQuestion": 2400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
         },
         {
-            "id": 3,
-            "question": "What is your emotional State? 3",
+            "id": 3000,
+            "question": "How intensly mad are you?",
             "options": [
                 {
-                    "id": 1, 
-                    "answer": "Happy",
-                    "nextQuestion": 10,
+                    "id": 1,
+                    "answer": "Low: Relaxed",
+                    "nextQuestion": 3100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
-                    "id": 2, 
-                    "answer": "Sad",
-                    "nextQuestion": 4,
+                    "id": 2,
+                    "answer": "Medium: Impulsive or out of focus",
+                    "nextQuestion": 3200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
-                    "id": 3, 
-                    "answer": "Angry",
-                    "nextQuestion": 20,
+                    "id": 3,
+                    "answer": "High: Worked-up",
+                    "nextQuestion": 3300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
-                    "id": 4, 
-                    "answer": "Bored",
-                    "nextQuestion": 3,
+                    "id": 4,
+                    "answer": "Higher than high: Can't do anything",
+                    "nextQuestion": 3400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
         },
         {
-            "id": 20,
-            "question": "What is your emotional State? 20",
+            "id": 4000,
+            "question": "How intensly stressed are you?",
             "options": [
                 {
-                    "id": 1, 
-                    "answer": "Happy",
-                    "nextQuestion": 10,
+                    "id": 1,
+                    "answer": "Low: Relaxed",
+                    "nextQuestion": 4100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
-                    "id": 2, 
-                    "answer": "Sad",
-                    "nextQuestion": 4,
+                    "id": 2,
+                    "answer": "Medium: Impulsive or out of focus",
+                    "nextQuestion": 4200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
-                    "id": 3, 
-                    "answer": "Angry",
-                    "nextQuestion": 20,
+                    "id": 3,
+                    "answer": "High: Worked-up",
+                    "nextQuestion": 4300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
-                    "id": 4, 
-                    "answer": "Bored",
-                    "nextQuestion": 3,
+                    "id": 4,
+                    "answer": "Top: Can't do anything",
+                    "nextQuestion": 4400,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 1100,
+            "question": "It's great that you're happy and relaxed! What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Just enjoying",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Practicing skills to prevent anxiety",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Practicing skills to prevent depression",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing challenging skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 1200,
+            "question": "Being happy is good, but being happy and focused is even better. What is distracting you?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Random thoughts",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Self-esteem",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Someone who makes me happy",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Someone who does not make me that happy",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 1300,
+            "question": "Being happy is good, but being so energetic when you want to be calm is challenging. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Making the most of being this happy",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Calming myself",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Practicing a quick skill",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing a challenging skill",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 1400,
+            "question": "Although being this happy is great for life milestones, it is not ideal when you need to get things done. What environment are you in",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Home",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Work/school",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Outdoors",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Somewhere else indoors",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 2100,
+            "question": "It's sucks to be sad, but I'm glad you're relaxed. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Letting the emotions flow",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Cheering up",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Practicing a quick skill",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Achieving a challenging skill",
+                    "nextQuestion": 5000,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 2200,
+            "question": "It's sucks to be sad; let alone out of focus. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Letting it out",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Calming down",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Solving my problem",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing a quick skill",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 2300,
+            "question": "It's sucks to be sad; let alone worked-up. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Letting it out",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Calming down",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Solving my problem",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing a quick skill",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 2400,
+            "question": "Let's get better. Which environment are you in?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Home",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Work/School",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Outdoors",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Somewhere else indoors",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 3100,
+            "question": "It's great that you can be calm while you're feeling angry. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Getting happier by putting it aside",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Getting along with who I am mad at",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Resolving what I am mad about",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing relationship skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 3200,
+            "question": "It's ok to be mad when you need to protect your personal boundaries. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Getting happier by putting it aside",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Getting along with who I am mad at",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Resolving what I am mad about",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing relationship skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 3300,
+            "question": "It's ok to be mad when you need to protect your personal boundaries. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Getting happier by putting it aside",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Getting along with who I am mad at",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Resolving what I am mad about",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing relationship skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 3300,
+            "question": "*********What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Getting happier by putting it aside",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Getting along with who I am mad at",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Resolving what I am mad about",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Practicing relationship skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                },
+                {
+                    "id": 5,
+                    "answer": "Putting myself in control",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                }
+            ]
+        },
+        {
+            "id": 3400,
+            "question": "What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Setting thoughts straight",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Putting myself in control",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Resolving the issue",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Resolving the issue",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 4100,
+            "question": "It's great that you can be calm even when stressed. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Focusing in the momement",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Letting my stress out",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Practicing quick stress relief skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                }
+            ]
+        },
+        {
+            "id": 4200,
+            "question": "It's easy to get distracted when you are stressed. What are you in the mood for?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Focusing in the momement",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Letting my stress out",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Practicing quick stress relief skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Switching my mindset to something else",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 4300,
+            "question": "Life is not easy, but DBT can make it easier to navigate. What are you in the mood for?",
+            "options": [
+
+                {
+                    "id": 1,
+                    "answer": "Reducing stress",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Practicing quick stress relief skills",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Switching my mindset",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                }
+            ]
+        },
+        {
+            "id": 4400,
+            "question": "You can do this. What are you in the mood for?",
+            "options": [
+
+                {
+                    "id": 1,
+                    "answer": "Switching my mindset",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2", "2:3"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Relieving stress",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Calming myself down",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                }
+            ]
+        },
+        {
+            "id": 5100,
+            "question": "Last question, which environment are you in?",
+            "options": [
+                {
+                    "id": 1,
+                    "answer": "Home",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2"]
+                },
+                {
+                    "id": 2,
+                    "answer": "Outdoors",
+                    "nextQuestion": 1,
+                    "skills": ["1:1", "1:2", "1:3"]
+                },
+                {
+                    "id": 3,
+                    "answer": "Work/school",
+                    "nextQuestion": 1,
+                    "skills": ["2:1", "2:2"]
+                },
+                {
+                    "id": 4,
+                    "answer": "Somewhere else indoors",
+                    "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
         }
+
     ]
 }
