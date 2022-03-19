@@ -6,20 +6,20 @@
             "data": [
                 {
                     "id": 1,
-                    "name": "Wise Mind", 
-                    "description": "Test Description", 
+                    "name": "Wise Mind",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "What: Observe, Describe, Participate", 
-                    "description": "Test Description", 
+                    "name": "What: Observe, Describe, Participate",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "How: One-Mindfully, Non-Judgementally, Effectively", 
-                    "description": "Test Description", 
+                    "name": "How: One-Mindfully, Non-Judgementally, Effectively",
+                    "description": "Test Description",
                     "example": "Test example"
                 }
             ]
@@ -31,26 +31,26 @@
             "data": [
                 {
                     "id": 1,
-                    "name": "DEAR", 
-                    "description": "Test Description", 
+                    "name": "DEAR",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "MAN", 
-                    "description": "Test Description", 
+                    "name": "MAN",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "GIVE", 
-                    "description": "Test Description", 
+                    "name": "GIVE",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
-                    "name": "FAST", 
-                    "description": "Test Description", 
+                    "name": "FAST",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
@@ -80,26 +80,26 @@
             "data": [
                 {
                     "id": 1,
-                    "name": "Check the Facts", 
-                    "description": "Test Description", 
+                    "name": "Check the Facts",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "Opposite Action", 
-                    "description": "Test Description", 
+                    "name": "Opposite Action",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "Problem Solving", 
-                    "description": "Test Description", 
+                    "name": "Problem Solving",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
-                    "name": "Accumulate Positive Emotions", 
-                    "description": "Test Description", 
+                    "name": "Accumulate Positive Emotions",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
@@ -135,26 +135,26 @@
             "data": [
                 {
                     "id": 1,
-                    "name": "STOP", 
-                    "description": "Test Description", 
+                    "name": "STOP",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "Pros and Cons", 
-                    "description": "Test Description", 
+                    "name": "Pros and Cons",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "TIP", 
-                    "description": "Test Description", 
+                    "name": "TIP",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
-                    "name": "Distract", 
-                    "description": "Test Description", 
+                    "name": "Distract",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
