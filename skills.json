@@ -2,30 +2,24 @@
     "skills": [
         {
             "id": 1,
-            "title": "Basic Section 1",
+            "title": "Mindfulness",
             "data": [
                 {
                     "id": 1,
-                    "name": "Test", 
-                    "description": "Test Description", 
+                    "name": "Wise Mind",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "Test2", 
-                    "description": "Test Description", 
+                    "name": "What: Observe, Describe, Participate",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "Test3", 
-                    "description": "Test Description", 
-                    "example": "Test example"
-                },
-                {
-                    "id": 4,
-                    "name": "Test4", 
-                    "description": "Test Description", 
+                    "name": "How: One-Mindfully, Non-Judgementally, Effectively",
+                    "description": "Test Description",
                     "example": "Test example"
                 }
             ]
@@ -33,93 +27,165 @@
         },
         {
             "id": 2,
-            "title": "Basic Section 2",
+            "title": "Interpersonal Effectiveness",
             "data": [
                 {
                     "id": 1,
-                    "name": "Test", 
-                    "description": "Test Description", 
+                    "name": "DEAR",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "Test2", 
-                    "description": "Test Description", 
+                    "name": "MAN",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "Test3", 
-                    "description": "Test Description", 
+                    "name": "GIVE",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
-                    "name": "Test4", 
-                    "description": "Test Description", 
+                    "name": "FAST",
+                    "description": "Test Description",
                     "example": "Test example"
+                },
+                {
+                    "id": 5,
+                    "name": "Walk the Middle Path",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 6,
+                    "name": "Validation",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 7,
+                    "name": "Strategies to Change Behavior",
+                    "description": "...",
+                    "example": "..."
                 }
             ]
 
         },
         {
             "id": 3,
-            "title": "Basic Section 3",
+            "title": "Emotion Regulation",
             "data": [
                 {
                     "id": 1,
-                    "name": "Test", 
-                    "description": "Test Description", 
+                    "name": "Check the Facts",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "Test2", 
-                    "description": "Test Description", 
+                    "name": "Opposite Action",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "Test3", 
-                    "description": "Test Description", 
+                    "name": "Problem Solving",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
-                    "name": "Test4", 
-                    "description": "Test Description", 
+                    "name": "Accumulate Positive Emotions",
+                    "description": "Test Description",
                     "example": "Test example"
+                },
+                {
+                    "id": 5,
+                    "name": "Build Mastery",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 6,
+                    "name": "Cope Ahead",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 7,
+                    "name": "PLEASE",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 8,
+                    "name": "Mindfulness of Current Emotion",
+                    "description": "Test Description",
+                    "example": "..."
                 }
             ]
 
         },
         {
             "id": 4,
-            "title": "Basic Section 4",
+            "title": "Distress Tolerance",
             "data": [
                 {
                     "id": 1,
-                    "name": "Test", 
-                    "description": "Test Description", 
+                    "name": "STOP",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
-                    "name": "Test2", 
-                    "description": "Test Description", 
+                    "name": "Pros and Cons",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "Test3", 
-                    "description": "Test Description", 
+                    "name": "TIP",
+                    "description": "Test Description",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
-                    "name": "Test4", 
-                    "description": "Test Description", 
+                    "name": "Distract",
+                    "description": "Test Description",
                     "example": "Test example"
+                },
+                {
+                    "id": 5,
+                    "name": "Self-Soothe",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 6,
+                    "name": "Improve the Moment",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 7,
+                    "name": "Radical Acceptance",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 8,
+                    "name": "Half-Smile/Willing Hands",
+                    "description": "...",
+                    "example": "..."
+                },
+                {
+                    "id": 9,
+                    "name": "Willingness/Mindfulness of Current Thoughts",
+                    "description": "...",
+                    "example": "..."
                 }
             ]
 
