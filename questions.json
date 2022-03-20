@@ -469,8 +469,8 @@
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1"]
                 },
                 {
                     "id": 3,
