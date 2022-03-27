@@ -6,35 +6,35 @@
             "options": [
                 {
                     "id": 1,
-                    "answer": "Happy",
-                    "image": "home",
+                    "answer": "Happy ",
+                    "image": "happy",
                     "nextQuestion": 1000,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
-                    "answer": "Sad",
-                    "image": "home",
+                    "answer": "Sad ",
+                    "image": "sad",
                     "nextQuestion": 2000,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
-                    "answer": "Mad",
-                    "image": "home",
+                    "answer": "Mad ",
+                    "image": "mad",
                     "nextQuestion": 3000,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
-                    "answer": "Stressed",
-                    "image": "home",
+                    "answer": "Stressed ",
+                    "image": "stressed",
                     "nextQuestion": 4000,
                     "skills": ["2:1", "2:2", "2:3"]
                 },
                 {
                     "id": 5,
-                    "answer": "In crisis",
+                    "answer": "In crisis ",
                     "image": "home",
                     "nextQuestion": 5000,
                     "skills": ["2:1", "2:2", "2:3"]

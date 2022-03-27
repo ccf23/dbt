@@ -10,6 +10,10 @@ const Stack = createNativeStackNavigator();
 
 const images = new Map(); 
 images.set("home", require('./images/home_cropped.png'));
+images.set("happy", require('./images/happy.png'));
+images.set("sad", require('./images/sad.png'));
+images.set("mad", require('./images/mad.png'));
+images.set("stressed", require('./images/stressed.png'));
 
 function HomeScreen({ navigation }) {
   let quiz = async () => {
@@ -178,9 +182,11 @@ function QuestionScreen({route, navigation}) {
               key={item.id} 
               onPress={() => nextQuestion(item)}
             >
-              <Text style={questionStyles.row}>{item.answer}
-                <Image source={images.get(item.image)} style={{ width: 50, height: 50 }} /> 
-              </Text>
+              <View style={questionStyles.row}>
+               <Text >{item.answer}
+               </Text>
+               <Image source={images.get(item.image)} style={{ width: 50, height: 50 }} /> 
+              </View>
             </TouchableOpacity>
           )}
           keyExtractor={item => item.id}
