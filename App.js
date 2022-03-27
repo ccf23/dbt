@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, FlatList, SectionList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { Image,SafeAreaView, FlatList, SectionList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, HeaderBackButton } from '@react-navigation/native-stack';
 import { skills } from './skills.json'; 
 import { questions } from './questions.json'; 
 import React, {useLayoutEffect} from 'react'; 
 
-
 const Stack = createNativeStackNavigator();
+
+const images = new Map(); 
+images.set("home", require('./images/home_cropped.png'));
 
 function HomeScreen({ navigation }) {
   let quiz = async () => {
@@ -24,7 +26,9 @@ function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <View >
+      <Image source={images.get("home")} style={{ width: 315, height: 350 }} /> 
+
+      <View>
         <Text style={styles.titleText}>Mental Health Excerises using DBT</Text>
         <StatusBar style="auto" />
       </View>
@@ -159,6 +163,7 @@ function QuestionScreen({route, navigation}) {
       });
     }    
   }
+
   return (
     <View style={questionStyles.mainContainer}>
       <View style={questionStyles.questionContainer}>
@@ -173,7 +178,9 @@ function QuestionScreen({route, navigation}) {
               key={item.id} 
               onPress={() => nextQuestion(item)}
             >
-              <Text style={questionStyles.row}>{item.answer}</Text>
+              <Text style={questionStyles.row}>{item.answer}
+                <Image source={images.get(item.image)} style={{ width: 50, height: 50 }} /> 
+              </Text>
             </TouchableOpacity>
           )}
           keyExtractor={item => item.id}
@@ -198,6 +205,9 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  mainContainer: {
+    flex:3,
+  },
   container: {
     flex: 1,
     flexDirection: 'column',
@@ -205,12 +215,19 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   btnContainer: {
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
     margin: 5
   },
-
+  imageContainer: {
+    flex: 2,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }, 
+  box1: {
+    flex: 3
+  },
   button: {
     backgroundColor: "blue",
     padding: 20,

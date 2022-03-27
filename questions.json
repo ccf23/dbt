@@ -7,30 +7,35 @@
                 {
                     "id": 1,
                     "answer": "Happy",
+                    "image": "home",
                     "nextQuestion": 1000,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Sad",
+                    "image": "home",
                     "nextQuestion": 2000,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Mad",
+                    "image": "home",
                     "nextQuestion": 3000,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Stressed",
+                    "image": "home",
                     "nextQuestion": 4000,
                     "skills": ["2:1", "2:2", "2:3"]
                 },
                 {
                     "id": 5,
                     "answer": "In crisis",
+                    "image": "home",
                     "nextQuestion": 5000,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -43,24 +48,28 @@
                 {
                     "id": 1,
                     "answer": "Low: Relaxed",
+                    "image": "home",
                     "nextQuestion": 1100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Medium: Impulsive or out of focus",
+                    "image": "home",
                     "nextQuestion": 1200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "High: Energetic",
+                    "image": "home",
                     "nextQuestion": 1300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "So happy I can't do what I need to do",
+                    "image": "home",
                     "nextQuestion": 1400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -73,24 +82,28 @@
                 {
                     "id": 1,
                     "answer": "Low: Relaxed",
+                    "image": "home",
                     "nextQuestion": 2100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Medium: Impulsive or out of focus",
+                    "image": "home",
                     "nextQuestion": 2200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "High: Worked-up",
+                    "image": "home",
                     "nextQuestion": 2300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Higher than high: Can't do anything",
+                    "image": "home",
                     "nextQuestion": 2400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -103,24 +116,28 @@
                 {
                     "id": 1,
                     "answer": "Low: Relaxed",
+                    "image": "home",
                     "nextQuestion": 3100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Medium: Impulsive or out of focus",
+                    "image": "home",
                     "nextQuestion": 3200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "High: Worked-up",
+                    "image": "home",
                     "nextQuestion": 3300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Higher than high: Can't do anything",
+                    "image": "home",
                     "nextQuestion": 3400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -133,24 +150,28 @@
                 {
                     "id": 1,
                     "answer": "Low: Relaxed",
+                    "image": "home",
                     "nextQuestion": 4100,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Medium: Impulsive or out of focus",
+                    "image": "home",
                     "nextQuestion": 4200,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "High: Worked-up",
+                    "image": "home",
                     "nextQuestion": 4300,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Top: Can't do anything",
+                    "image": "home",
                     "nextQuestion": 4400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -163,24 +184,28 @@
                 {
                     "id": 1,
                     "answer": "Just enjoying",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Practicing skills to prevent anxiety",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing skills to prevent depression",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing challenging skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -193,24 +218,28 @@
                 {
                     "id": 1,
                     "answer": "Random thoughts",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Self-esteem",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Someone who makes me happy",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Someone who does not make me that happy",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -223,24 +252,28 @@
                 {
                     "id": 1,
                     "answer": "Making the most of being this happy",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Calming myself",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing a quick skill",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing a challenging skill",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -253,24 +286,28 @@
                 {
                     "id": 1,
                     "answer": "Home",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Work/school",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Outdoors",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Somewhere else indoors",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -283,24 +320,28 @@
                 {
                     "id": 1,
                     "answer": "Letting the emotions flow",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Cheering up",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing a quick skill",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Achieving a challenging skill",
+                    "image": "home",
                     "nextQuestion": 5000,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -313,24 +354,28 @@
                 {
                     "id": 1,
                     "answer": "Letting it out",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Calming down",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Solving my problem",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing a quick skill",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -343,24 +388,28 @@
                 {
                     "id": 1,
                     "answer": "Letting it out",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Calming down",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Solving my problem",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing a quick skill",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -373,24 +422,28 @@
                 {
                     "id": 1,
                     "answer": "Home",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Work/School",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Outdoors",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Somewhere else indoors",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -403,24 +456,28 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -433,24 +490,28 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -463,24 +524,28 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
+                    "image": "home",
                     "nextQuestion": -1,
                     "skills": ["1:1"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -493,30 +558,35 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 },
                 {
                     "id": 5,
                     "answer": "Putting myself in control",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 }
@@ -529,24 +599,28 @@
                 {
                     "id": 1,
                     "answer": "Setting thoughts straight",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Putting myself in control",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving the issue",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Resolving the issue",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -559,18 +633,21 @@
                 {
                     "id": 1,
                     "answer": "Focusing in the momement",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Letting my stress out",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing quick stress relief skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 }
@@ -583,24 +660,28 @@
                 {
                     "id": 1,
                     "answer": "Focusing in the momement",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Letting my stress out",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing quick stress relief skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Switching my mindset to something else",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -614,18 +695,21 @@
                 {
                     "id": 1,
                     "answer": "Reducing stress",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 2,
                     "answer": "Practicing quick stress relief skills",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 3,
                     "answer": "Switching my mindset",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -639,18 +723,21 @@
                 {
                     "id": 1,
                     "answer": "Switching my mindset",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 },
                 {
                     "id": 2,
                     "answer": "Relieving stress",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 3,
                     "answer": "Calming myself down",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 }
@@ -663,24 +750,28 @@
                 {
                     "id": 1,
                     "answer": "Home",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Outdoors",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Work/school",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Somewhere else indoors",
+                    "image": "home",
                     "nextQuestion": 1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
