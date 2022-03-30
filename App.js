@@ -1,13 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, FlatList, SectionList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { Switch, SafeAreaView, FlatList, SectionList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, HeaderBackButton } from '@react-navigation/native-stack';
 import { skills } from './skills.json'; 
 import { questions } from './questions.json'; 
-import React, {useLayoutEffect} from 'react'; 
+import React, {useLayoutEffect } from 'react'; 
 
 
 const Stack = createNativeStackNavigator();
+const affirm = false; 
 
 function HomeScreen({ navigation }) {
   let quiz = async () => {
@@ -159,10 +160,16 @@ function QuestionScreen({route, navigation}) {
       });
     }    
   }
+
+  let questionText = curQuestion.affirmation.trim() == "" ? curQuestion.question : curQuestion.affirmation+ " " + curQuestion.question; 
+
+  if(!affirm)
+    questionText = curQuestion.question;
+
   return (
     <View style={questionStyles.mainContainer}>
       <View style={questionStyles.questionContainer}>
-        <Text style={questionStyles.questionText}>{curQuestion.question}</Text>
+        <Text style={questionStyles.questionText}>{questionText}</Text>
       </View>
 
       <SafeAreaView style={questionStyles.optionContainer}>

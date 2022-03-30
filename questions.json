@@ -3,6 +3,7 @@
         {
             "id": 1,
             "question": "How are you now?",
+            "affirmation": "TEST",
             "options": [
                 {
                     "id": 1,
@@ -39,6 +40,7 @@
         {
             "id": 1000,
             "question": "How intensly happy are you?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -69,6 +71,7 @@
         {
             "id": 2000,
             "question": "How intensly sad are you?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -99,6 +102,7 @@
         {
             "id": 3000,
             "question": "How intensly mad are you?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -129,6 +133,7 @@
         {
             "id": 4000,
             "question": "How intensly stressed are you?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -159,6 +164,7 @@
         {
             "id": 1100,
             "question": "It's great that you're happy and relaxed! What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -189,6 +195,7 @@
         {
             "id": 1200,
             "question": "Being happy is good, but being happy and focused is even better. What is distracting you?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -219,6 +226,7 @@
         {
             "id": 1300,
             "question": "Being happy is good, but being so energetic when you want to be calm is challenging. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -249,6 +257,7 @@
         {
             "id": 1400,
             "question": "Although being this happy is great for life milestones, it is not ideal when you need to get things done. What environment are you in",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -279,6 +288,7 @@
         {
             "id": 2100,
             "question": "It's sucks to be sad, but I'm glad you're relaxed. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -309,6 +319,7 @@
         {
             "id": 2200,
             "question": "It's sucks to be sad; let alone out of focus. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -339,6 +350,7 @@
         {
             "id": 2300,
             "question": "It's sucks to be sad; let alone worked-up. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -369,6 +381,7 @@
         {
             "id": 2400,
             "question": "Let's get better. Which environment are you in?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -399,6 +412,7 @@
         {
             "id": 3100,
             "question": "It's great that you can be calm while you're feeling angry. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -429,6 +443,7 @@
         {
             "id": 3200,
             "question": "It's ok to be mad when you need to protect your personal boundaries. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -459,6 +474,7 @@
         {
             "id": 3300,
             "question": "It's ok to be mad when you need to protect your personal boundaries. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -489,6 +505,7 @@
         {
             "id": 3300,
             "question": "*********What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -525,6 +542,7 @@
         {
             "id": 3400,
             "question": "What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -555,6 +573,7 @@
         {
             "id": 4100,
             "question": "It's great that you can be calm even when stressed. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -579,6 +598,7 @@
         {
             "id": 4200,
             "question": "It's easy to get distracted when you are stressed. What are you in the mood for?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -609,6 +629,7 @@
         {
             "id": 4300,
             "question": "Life is not easy, but DBT can make it easier to navigate. What are you in the mood for?",
+            "affirmation": "",
             "options": [
 
                 {
@@ -634,6 +655,7 @@
         {
             "id": 4400,
             "question": "You can do this. What are you in the mood for?",
+            "affirmation": "",
             "options": [
 
                 {
@@ -659,6 +681,7 @@
         {
             "id": 5100,
             "question": "Last question, which environment are you in?",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
