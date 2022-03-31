@@ -3,7 +3,7 @@
         {
             "id": 1,
             "question": "How are you now?",
-            "affirmation": "TEST",
+            "affirmation": "",
             "options": [
                 {
                     "id": 1,
@@ -32,7 +32,7 @@
                 {
                     "id": 5,
                     "answer": "In crisis",
-                    "nextQuestion": 5000,
+                    "nextQuestion": 5100,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
@@ -163,256 +163,256 @@
         },
         {
             "id": 1100,
-            "question": "It's great that you're happy and relaxed! What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's great that you're happy and relaxed!",
             "options": [
                 {
                     "id": 1,
-                    "answer": "Just enjoying",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "answer": "Just enjoying.",
+                    "nextQuestion": -1,
+                    "skills": [ "1:2","1:3", "4:5"]
                 },
                 {
                     "id": 2,
                     "answer": "Practicing skills to prevent anxiety",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2","1:3", "3:2", "3:3", "3:4", "3:5", "3:6", "3:8" ]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing skills to prevent depression",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["2:5", "2:6", "1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing challenging skills",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "nextQuestion": -1,
+                    "skills": ["2:1", "2:2", "2:3", "2:4"]
                 }
             ]
         },
         {
             "id": 1200,
-            "question": "Being happy is good, but being happy and focused is even better. What is distracting you?",
-            "affirmation": "",
+            "question": "What is distracting you?",
+            "affirmation": "Being happy is good, but being happy and focused is even better.",
             "options": [
                 {
-                    "id": 1,
-                    "answer": "Random thoughts",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "id": 2,
+                    "answer": "Self-esteem. I'm in the mood for enjoying life",
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3","3:2"]
                 },
                 {
-                    "id": 2,
-                    "answer": "Self-esteem",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "id": 1,
+                    "answer": "Random thoughts. I wanna get back into focus.",
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3","3:1", "3:2", "3:3", "3:4", "3:5", "3:6" ]
                 },
                 {
                     "id": 3,
                     "answer": "Someone who makes me happy",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3","3:1", "3:2", "3:3", "3:4", "3:5", "3:6"]
                 },
                 {
                     "id": 4,
                     "answer": "Someone who does not make me that happy",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
         },
         {
             "id": 1300,
-            "question": "Being happy is good, but being so energetic when you want to be calm is challenging. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "Being happy is good, but being so energetic when you want to be calm is challenging.",
             "options": [
                 {
                     "id": 1,
                     "answer": "Making the most of being this happy",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:2", "1:3", "2:5", "3:4", "3:5", "3:6", "3:7", "3:8"]
                 },
                 {
                     "id": 2,
                     "answer": "Calming myself",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3", "3:1", "3:2", "3:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing a quick skill",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["2:7", "3:8", "3:2", "1:3", "4:1"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing a challenging skill",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "nextQuestion": -1,
+                    "skills": ["2:1", "2:2", "2:3", "4:2"]
                 }
             ]
         },
         {
             "id": 1400,
-            "question": "Although being this happy is great for life milestones, it is not ideal when you need to get things done. What environment are you in",
-            "affirmation": "",
+            "question": "What environment are you in",
+            "affirmation": "Although being this happy is great for life milestones, it is not ideal when you need to get things done.",
             "options": [
                 {
                     "id": 1,
                     "answer": "Home",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3", "2:5", "3:2", "3:4", "3:8", "4:1", "4:3", "4:4"]
                 },
                 {
                     "id": 2,
                     "answer": "Work/school",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3", "2:5", "3:2", "3:4", "3:8", "4:1", "4:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Outdoors",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["4:4", "3:4"]
                 },
                 {
                     "id": 4,
                     "answer": "Somewhere else indoors",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
         },
         {
             "id": 2100,
-            "question": "It's sucks to be sad, but I'm glad you're relaxed. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's sucks to be sad, but I'm glad you're relaxed.",
             "options": [
                 {
                     "id": 1,
                     "answer": "Letting the emotions flow",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3", "2:7", "2:5", "3:1", "3:2", "3:3", "3:4", "3:5", "3:6", "3:7", "3:8"]
                 },
                 {
                     "id": 2,
                     "answer": "Cheering up",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3", "2:5", "2:6", "3:2", "3:3", "3:4", "3:5", "3:6", "3:7", "3:8"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing a quick skill",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:2", "1:3", "3:1", "3:2", "3:8"]
                 },
                 {
                     "id": 4,
                     "answer": "Achieving a challenging skill",
-                    "nextQuestion": 5000,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "nextQuestion": -1,
+                    "skills": ["4:7", "4:8", "4:9"]
                 }
             ]
         },
         {
             "id": 2200,
-            "question": "It's sucks to be sad; let alone out of focus. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's sucks to be sad; let alone out of focus.",
             "options": [
                 {
                     "id": 1,
-                    "answer": "Letting it out",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "answer": "Letting emotions out",
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "2:6", "3:1", "3:2", "3:3", "3:8"]
                 },
                 {
                     "id": 2,
                     "answer": "Calming down",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "1:3", "3:1", "3:4", "3:5", "3:6", "3:7", "3:8"]
                 },
                 {
                     "id": 3,
                     "answer": "Solving my problem",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "2:5", "2:6", "3:1", "3:2", "3:3"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing a quick skill",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "nextQuestion": -1,
+                    "skills": ["2:7", "3:8", "3:2", "1:3", "4:1"]
                 }
             ]
         },
         {
             "id": 2300,
-            "question": "It's sucks to be sad; let alone worked-up. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's sucks to be sad; let alone worked-up.",
             "options": [
                 {
                     "id": 1,
-                    "answer": "Letting it out",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "answer": "Letting emotions out",
+                    "nextQuestion": -1,
+                    "skills": ["3:1", "3:3", "3:4", "3:5", "3:6", "3:8", "4:2", "4:3", "4:4", "4:5", "4:7", "4:8", "4:9"]
                 },
                 {
                     "id": 2,
                     "answer": "Calming down",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["3:1", "3:3", "3:4", "3:5", "3:6", "3:7", "3:8", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:8", "4:9"]
                 },
                 {
                     "id": 3,
                     "answer": "Solving my problem",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:2", "2:5", "2:6", "3:1", "3:2", "3:3"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing a quick skill",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:2", "3:1", "3:2", "3:4", "3:5", "3:6"]
                 }
             ]
         },
         {
             "id": 2400,
-            "question": "Let's get better. Which environment are you in?",
-            "affirmation": "",
+            "question": "Which environment are you in?",
+            "affirmation": "Let's get better.",
             "options": [
                 {
                     "id": 1,
                     "answer": "Home",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "nextQuestion": -1,
+                    "skills": ["4:1", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:8", "4:9"]
                 },
                 {
                     "id": 2,
                     "answer": "Work/School",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["4:1", "4:2", "4:3", "4:4", "4:6", "4:7", "4:8"]
                 },
                 {
                     "id": 3,
                     "answer": "Outdoors",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["4:1", "4:3", "4:4", "4:7", "4:8", "4:9"]
                 },
                 {
                     "id": 4,
                     "answer": "Somewhere else indoors",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "nextQuestion": -1,
+                    "skills": ["4:1", "4:2", "4:3", "4:4", "4:6", "4:7", "4:8", "4:9"]
                 }
             ]
         },
         {
             "id": 3100,
-            "question": "It's great that you can be calm while you're feeling angry. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's great that you can be calm while you're feeling angry.",
             "options": [
                 {
                     "id": 1,
@@ -442,8 +442,8 @@
         },
         {
             "id": 3200,
-            "question": "It's ok to be mad when you need to protect your personal boundaries. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's ok to be mad when you need to protect your personal boundaries.",
             "options": [
                 {
                     "id": 1,
@@ -473,8 +473,8 @@
         },
         {
             "id": 3300,
-            "question": "It's ok to be mad when you need to protect your personal boundaries. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's ok to be mad when you need to protect your personal boundaries.",
             "options": [
                 {
                     "id": 1,
@@ -504,7 +504,7 @@
         },
         {
             "id": 3300,
-            "question": "*********What are you in the mood for?",
+            "question": "What are you in the mood for?",
             "affirmation": "",
             "options": [
                 {
@@ -572,8 +572,8 @@
         },
         {
             "id": 4100,
-            "question": "It's great that you can be calm even when stressed. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's great that you can be calm even when stressed.",
             "options": [
                 {
                     "id": 1,
@@ -597,8 +597,8 @@
         },
         {
             "id": 4200,
-            "question": "It's easy to get distracted when you are stressed. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "It's easy to get distracted when you are stressed.",
             "options": [
                 {
                     "id": 1,
@@ -628,8 +628,8 @@
         },
         {
             "id": 4300,
-            "question": "Life is not easy, but DBT can make it easier to navigate. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "Life is not easy, but DBT can make it easier to navigate.",
             "options": [
 
                 {
@@ -654,8 +654,8 @@
         },
         {
             "id": 4400,
-            "question": "You can do this. What are you in the mood for?",
-            "affirmation": "",
+            "question": "What are you in the mood for?",
+            "affirmation": "You can do this.",
             "options": [
 
                 {
@@ -686,25 +686,25 @@
                 {
                     "id": 1,
                     "answer": "Home",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Outdoors",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Work/school",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Somewhere else indoors",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]

@@ -46,15 +46,15 @@ function HomeScreen({ navigation }) {
           <Text style={styles.buttonText}>List of Skills</Text>
         </TouchableOpacity>
       </View>
-          <View style={styles.container}>
-      <Switch
-        trackColor={{ false: '#767577', true: '#81b0ff' }}
-        thumbColor={isEnabled ? '#f5dd4b' : '#f4f3f4'}
-        ios_backgroundColor="#3e3e3e"
-        onValueChange={toggleSwitch}
-        value={isEnabled}
-      />
-    </View>
+      <View style={styles.btnContainer}>
+        <Switch
+          trackColor={{ false: '#767577', true: '#81b0ff' }}
+          thumbColor={isEnabled ? '#f5dd4b' : '#f4f3f4'}
+          ios_backgroundColor="#3e3e3e"
+          onValueChange={toggleSwitch}
+          value={isEnabled}
+        />
+      </View>
     </View>
   )
 }
@@ -228,7 +228,6 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   btnContainer: {
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
     margin: 5
