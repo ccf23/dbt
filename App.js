@@ -4,11 +4,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, HeaderBackButton } from '@react-navigation/native-stack';
 import { skills } from './skills.json'; 
 import { questions } from './questions.json'; 
-import React, {useLayoutEffect } from 'react'; 
+import React, {useLayoutEffect, useState, useEffect } from 'react'; 
 
 
 const Stack = createNativeStackNavigator();
-const affirm = false; 
+let affirm = false; 
 
 function HomeScreen({ navigation }) {
   let quiz = async () => {
@@ -22,6 +22,13 @@ function HomeScreen({ navigation }) {
   let list = () => {
     navigation.navigate("List"); 
   }
+  const [isEnabled, setIsEnabled] = useState(false);
+  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+
+  useEffect(() => {
+    //console.log("Affirm changing from " + affirm + " to " + isEnabled); 
+    affirm = isEnabled; 
+  });
 
   return (
     <View style={styles.container}>
@@ -39,6 +46,15 @@ function HomeScreen({ navigation }) {
           <Text style={styles.buttonText}>List of Skills</Text>
         </TouchableOpacity>
       </View>
+          <View style={styles.container}>
+      <Switch
+        trackColor={{ false: '#767577', true: '#81b0ff' }}
+        thumbColor={isEnabled ? '#f5dd4b' : '#f4f3f4'}
+        ios_backgroundColor="#3e3e3e"
+        onValueChange={toggleSwitch}
+        value={isEnabled}
+      />
+    </View>
     </View>
   )
 }
