@@ -188,7 +188,18 @@
                     "example": "..."
                 }
             ]
-
+        },
+        {
+            "id": 5,
+            "title": "Hotlines",
+            "data": [
+                {
+                    "id": 1,
+                    "name": "RESOLVE",
+                    "description": "Test Description",
+                    "example": "Test example"
+                }
+            ]
         }
     ]
 }

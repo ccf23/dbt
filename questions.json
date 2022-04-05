@@ -40,7 +40,7 @@
         {
             "id": 1000,
             "question": "How intensly happy are you?",
-            "affirmation": "",
+            "affirmation": "Everyone wants happiness and it's great you found it.",
             "options": [
                 {
                     "id": 1,
@@ -71,7 +71,7 @@
         {
             "id": 2000,
             "question": "How intensly sad are you?",
-            "affirmation": "",
+            "affirmation": "Feeling pain means something is important to you.",
             "options": [
                 {
                     "id": 1,
@@ -93,7 +93,7 @@
                 },
                 {
                     "id": 4,
-                    "answer": "Higher than high: Can't do anything",
+                    "answer": "Top: Can't do anything",
                     "nextQuestion": 2400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -102,7 +102,7 @@
         {
             "id": 3000,
             "question": "How intensly mad are you?",
-            "affirmation": "",
+            "affirmation": "Being mad is healthy, especially if something is offensive.",
             "options": [
                 {
                     "id": 1,
@@ -124,7 +124,7 @@
                 },
                 {
                     "id": 4,
-                    "answer": "Higher than high: Can't do anything",
+                    "answer": "Top: Can't do anything",
                     "nextQuestion": 3400,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
@@ -133,31 +133,31 @@
         {
             "id": 4000,
             "question": "How intensly stressed are you?",
-            "affirmation": "",
+            "affirmation": "It's great that you are of aware of your stress. Stress is common but often hard to recognize.",
             "options": [
                 {
                     "id": 1,
                     "answer": "Low: Relaxed",
                     "nextQuestion": 4100,
-                    "skills": ["1:1", "1:2"]
+                    "skills": ["1:2", "1:3", "1:4", "1:5", "1:6", "1:7"]
                 },
                 {
                     "id": 2,
                     "answer": "Medium: Impulsive or out of focus",
                     "nextQuestion": 4200,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "skills": ["1:2", "1:3", "1:4", "1:5", "1:6", "1:7", "3:2"]
                 },
                 {
                     "id": 3,
                     "answer": "High: Worked-up",
-                    "nextQuestion": 4300,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["4:1", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:9"]
                 },
                 {
                     "id": 4,
                     "answer": "Top: Can't do anything",
-                    "nextQuestion": 4400,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "nextQuestion": -1,
+                    "skills": ["4:1", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:9"]
                 }
             ]
         },
@@ -416,9 +416,9 @@
             "options": [
                 {
                     "id": 1,
-                    "answer": "Getting happier by putting it aside",
+                    "answer": "Putting it aside",
                     "nextQuestion": -1,
-                    "skills": ["1:2", "1:3","1:4","1:5","1:6","1:7","2:7"]
+                    "skills": ["1:2", "1:3"]
                 },
                 {
                     "id": 2,
@@ -430,7 +430,7 @@
                     "id": 3,
                     "answer": "Resolving what I am mad about",
                     "nextQuestion": -1,
-                    "skills": ["2:2","2:3","3:1","3:2","2:6","3:3"]
+                    "skills": ["2:1", "2:2","2:3","3:1","3:2","2:6","3:3"]
                 },
                 {
                     "id": 4,
@@ -443,31 +443,31 @@
         {
             "id": 3200,
             "question": "What are you in the mood for?",
-            "affirmation": "It's ok to be mad when you need to protect your personal boundaries.",
+            "affirmation": "Focusing is more important than being mad at the moment. You are capable of being productive right now.",
             "options": [
                 {
                     "id": 1,
-                    "answer": "Getting happier by putting it aside",
+                    "answer": "Putting it aside",
                     "nextQuestion": -1,
-                    "skills": ["1:1", "1:2"]
+                    "skills": ["1:1", "1:2", "1:3", "2:7"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
                     "nextQuestion": -1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "skills": ["1:1", "2:1", "2:2", "2:3", "2:4", "2:6", "2:7"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
                     "nextQuestion": -1,
-                    "skills": ["2:1", "2:2"]
+                    "skills": ["2:1", "2:2", "2:3", "2:4", "2:5"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
                     "nextQuestion": -1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "skills": ["2:1", "2:2", "2:3", "2:4", "2:5"]
                 }
             ]
         },
@@ -480,93 +480,44 @@
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
                     "nextQuestion": -1,
-                    "skills": ["1:1", "1:2"]
+                    "skills": ["1:1", "1:2", "3:1", "3:2", "3:3", "3:4", "3:5", "3:6", "3:7", "3:8"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
                     "nextQuestion": -1,
-                    "skills": ["1:1"]
+                    "skills": ["2:1", "2:2", "2:3", "2:4", "2:5"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
                     "nextQuestion": -1,
-                    "skills": ["2:1", "2:2"]
+                    "skills": ["2:5", "2:7", "3:3"]
                 },
                 {
                     "id": 4,
-                    "answer": "Practicing relationship skills",
-                    "nextQuestion": -1,
-                    "skills": ["2:1", "2:2", "2:3"]
-                }
-            ]
-        },
-        {
-            "id": 3300,
-            "question": "What are you in the mood for?",
-            "affirmation": "",
-            "options": [
-                {
-                    "id": 1,
-                    "answer": "Getting happier by putting it aside",
-                    "nextQuestion": -1,
-                    "skills": ["1:1", "1:2"]
-                },
-                {
-                    "id": 2,
-                    "answer": "Getting along with who I am mad at",
-                    "nextQuestion": -1,
-                    "skills": ["1:1", "1:2", "1:3"]
-                },
-                {
-                    "id": 3,
-                    "answer": "Resolving what I am mad about",
-                    "nextQuestion": -1,
-                    "skills": ["2:1", "2:2"]
-                },
-                {
-                    "id": 4,
-                    "answer": "Practicing relationship skills",
-                    "nextQuestion": -1,
-                    "skills": ["2:1", "2:2", "2:3"]
-                },
-                {
-                    "id": 5,
                     "answer": "Putting myself in control",
                     "nextQuestion": -1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "skills": ["4:1", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:8"]
                 }
             ]
         },
         {
             "id": 3400,
             "question": "What are you in the mood for?",
-            "affirmation": "",
+            "affirmation": "The priority is to calm down before you can solve the situation.",
             "options": [
                 {
                     "id": 1,
-                    "answer": "Setting thoughts straight",
+                    "answer": "Putting myself in control",
                     "nextQuestion": -1,
-                    "skills": ["1:1", "1:2"]
+                    "skills": ["4:1", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:8"]
                 },
                 {
                     "id": 2,
-                    "answer": "Putting myself in control",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
-                },
-                {
-                    "id": 3,
-                    "answer": "Resolving the issue",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
-                },
-                {
-                    "id": 4,
-                    "answer": "Resolving the issue",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "answer": "Plan resolution",
+                    "nextQuestion": -1,
+                    "skills": ["2:1", "2:2", "2:3", "2:4", "2:5"]
                 }
             ]
         },
@@ -577,21 +528,21 @@
             "options": [
                 {
                     "id": 1,
-                    "answer": "Focusing in the momement",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "answer": "Focusing in the moment",
+                    "nextQuestion": -1,
+                    "skills": ["1:2", "1:3", "3:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Letting my stress out",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["2:7", "2:6", "2:5", "3:2", "3:4", "3:5", "3:6"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing quick stress relief skills",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["3:4", "3:5", "3:6", "3:7", "3:8"]
                 }
             ]
         },
@@ -602,85 +553,33 @@
             "options": [
                 {
                     "id": 1,
-                    "answer": "Focusing in the momement",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "answer": "Focusing in the moment",
+                    "nextQuestion": -1,
+                    "skills": ["1:2", "1:3", "3:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Letting my stress out",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["2:7", "2:6", "2:5", "3:2", "3:4", "3:5", "3:6"]
                 },
                 {
                     "id": 3,
                     "answer": "Practicing quick stress relief skills",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["3:4", "3:5", "3:6", "3:7", "3:8"]
                 },
                 {
                     "id": 4,
                     "answer": "Switching my mindset to something else",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
-                }
-            ]
-        },
-        {
-            "id": 4300,
-            "question": "What are you in the mood for?",
-            "affirmation": "Life is not easy, but DBT can make it easier to navigate.",
-            "options": [
-
-                {
-                    "id": 1,
-                    "answer": "Reducing stress",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
-                },
-                {
-                    "id": 2,
-                    "answer": "Practicing quick stress relief skills",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
-                },
-                {
-                    "id": 3,
-                    "answer": "Switching my mindset",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
-                }
-            ]
-        },
-        {
-            "id": 4400,
-            "question": "What are you in the mood for?",
-            "affirmation": "You can do this.",
-            "options": [
-
-                {
-                    "id": 1,
-                    "answer": "Switching my mindset",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2", "2:3"]
-                },
-                {
-                    "id": 2,
-                    "answer": "Relieving stress",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
-                },
-                {
-                    "id": 3,
-                    "answer": "Calming myself down",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "nextQuestion": -1,
+                    "skills": ["4:4", "1:3", "3:4", "3:5", "3:6"]
                 }
             ]
         },
         {
             "id": 5100,
-            "question": "There are multiple ways to deal with a crisis.",
+            "question": "Practice a skill or call the Hotlines",
             "affirmation": "Hang in there and be strong!",
             "options": [
                 {
@@ -693,19 +592,7 @@
                     "id": 1,
                     "answer": "Hotlines",
                     "nextQuestion": -1,
-                    "skills": ["1:1", "1:2", "1:3"]
-                },
-                {
-                    "id": 3,
-                    "answer": "Work/school",
-                    "nextQuestion": -1,
-                    "skills": ["2:1", "2:2"]
-                },
-                {
-                    "id": 4,
-                    "answer": "Somewhere else indoors",
-                    "nextQuestion": -1,
-                    "skills": ["2:1", "2:2", "2:3"]
+                    "skills": ["5:1"]
                 }
             ]
         }
