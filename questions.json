@@ -417,25 +417,25 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2"]
+                    "nextQuestion": -1,
+                    "skills": ["1:2", "1:3","1:4","1:5","1:6","1:7","2:7"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
-                    "nextQuestion": 1,
-                    "skills": ["1:1", "1:2", "1:3"]
+                    "nextQuestion": -1,
+                    "skills": ["1:1", "1:3", "2:1","2:4"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
-                    "nextQuestion": 1,
-                    "skills": ["2:1", "2:2"]
+                    "nextQuestion": -1,
+                    "skills": ["2:2","2:3","3:1","3:2","2:6","3:3"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
@@ -448,25 +448,25 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
@@ -479,7 +479,7 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
@@ -491,13 +491,13 @@
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 }
             ]
@@ -510,31 +510,31 @@
                 {
                     "id": 1,
                     "answer": "Getting happier by putting it aside",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
                     "id": 2,
                     "answer": "Getting along with who I am mad at",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
                 {
                     "id": 3,
                     "answer": "Resolving what I am mad about",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2"]
                 },
                 {
                     "id": 4,
                     "answer": "Practicing relationship skills",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["2:1", "2:2", "2:3"]
                 },
                 {
                     "id": 5,
                     "answer": "Putting myself in control",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2", "1:3"]
                 }
             ]
@@ -547,7 +547,7 @@
                 {
                     "id": 1,
                     "answer": "Setting thoughts straight",
-                    "nextQuestion": 1,
+                    "nextQuestion": -1,
                     "skills": ["1:1", "1:2"]
                 },
                 {
@@ -680,18 +680,18 @@
         },
         {
             "id": 5100,
-            "question": "Last question, which environment are you in?",
-            "affirmation": "",
+            "question": "There are multiple ways to deal with a crisis.",
+            "affirmation": "Hang in there and be strong!",
             "options": [
                 {
-                    "id": 1,
-                    "answer": "Home",
+                    "id": 2,
+                    "answer": "All distress tolerance skills",
                     "nextQuestion": -1,
                     "skills": ["4:1", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:8", "4:9"]
                 },
                 {
-                    "id": 2,
-                    "answer": "Outdoors",
+                    "id": 1,
+                    "answer": "Hotlines",
                     "nextQuestion": -1,
                     "skills": ["1:1", "1:2", "1:3"]
                 },
