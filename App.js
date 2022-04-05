@@ -106,9 +106,9 @@ function SkillDetailScreen({route, navigation}) {
       <View style={lstStyles.descContainer}>
         <Text style={lstStyles.lstDetailRecord}>Description: {item.description}</Text>
       </View>
-      <View style={lstStyles.exContainer}>
+      {/*<View style={lstStyles.exContainer}>
         <Text style={lstStyles.lstDetailRecord}>Example: {item.example}</Text>
-      </View>
+      </View>*/}
     </View>
   );
 }
