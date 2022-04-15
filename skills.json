@@ -7,23 +7,22 @@
                 {
                     "id": 1,
                     "name": "Wise Mind",
-                    "description": "Test Description",
+                    "description": "When in reasonable mind, you are ruled by facts, reason, logic, and pragmatics. Values and feelings are not important. When in emotion mind, you are ruled by your moods, feelings, and urges to do or say things. Facts, reason, and logic are not important. Wise Mind Is: The wisdom within each person. Seeing the value of both reason and emotion. This prompts you to walk the middle path. Can you analyze and combine your current emotions with your rationale to reach wise mind?",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
                     "name": "What: Observe, Describe, Participate",
-                    "description": "Test Description",
+                    "description": "OBSERVE: Notice your body sensations (coming through your eyes, ears, nose, skin, and tongue). Pay attention on purpose, to the present moment. Control your attention, but not what you see. Push away nothing. Cling to nothing. Practice wordless watching by watching your thoughts come into your mind and let them slip right by like clouds in the sky. Notice each feeling, rising and falling, like waves in the ocean. Observe both inside and outside yourself. DESCRIBE: Put words on the experience. When a feeling or thought arises, or you do something, acknowledge it. Throw yourself completely into activities of the current moment. Do not separate yourself from what is going on in the moment (dancing, cleaning, talking to a friend, feeling happy or feeling sad). Label what you observe. Put a name on your feelings. Label a thought as just a thought, a feeling as just a feeling, an action as just an action. unglue your interpretations and opinions from the facts. Describe the “who, what, when, and where” that you observe. Just the facts. Remember, if you can’t observe it through your senses, you can’t describe it. PARTICIPATE: Throw yourself completely into activities of the current moment. Do not separate yourself from what is going on in the moment (dancing, cleaning, talking to a friend, feeling happy or feeling sad). Become one with whatever you are doing, completely forgetting yourself. Throw your attention to the moment. act intuitively from Wise mind. Do just what is needed in each situation—a skillful dancer on the dance floor, one with the music and your partner, neither willful nor sitting on your hands. Go with the flow. Respond with spontaneity",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
-                    "name": "How: One-Mindfully, Non-Judgementally, Effectively",
-                    "description": "Test Description",
+                    "name": "How Skills: One-Mindfully, Nonjudgementally, Effectively",
+                    "description": "NONJUDGEMENTALLY: Accept each moment like a blanket spread out on the lawn, accepting both the rain and the sun and each leaf that falls upon it. Acknowledge your values, your wishes, your emotional reactions, but don’t judge them. When you find yourself judging, don’t judge your judging. ONE-MINDFULLY: Rivet yourself to now. Be completely present to this one moment. Do one thing at a time. Notice the desire to be half-present, to be somewhere else, to go somewhere else in your mind, to do something else, to multitask— and then come back to one thing at a time.  Let go of distractions. If other actions, or other thoughts, or strong feelings distract you, go back to what you are doing—again, and again, and again. concentrate your mind. If you find you are doing two things at once, stop —go back to one thing at a time (the opposite of multitasking!). EFFECTIVELY:  Be mindful of your goals in the situation, and do what is necessary to achieve them. Focus on what works. (Don’t let emotion mind get in the way of being effective). Play by the rules. Act as skillfully as you can. Do what is needed for the situation you are in—not the situation you wish you were in; not the one that is fair; not the one that is more comfortable. Let go of willfulness and sitting on your hands.",
                     "example": "Test example"
                 }
             ]
-
         },
         {
             "id": 2,
@@ -32,43 +31,43 @@
                 {
                     "id": 1,
                     "name": "DEAR",
-                    "description": "Test Description",
+                    "description": "DESCRIBE the current SituAtion (if necessary). Stick to the facts. Tell the person exactly what you are reacting to. EXPRESS your feelings and opinions about the situation ASSERT. yourself by ASking for what you want or saying no clearly. Do not assume that others will figure out what you want. Remember that others cannot read your mind. Don’t assume that the other person knows how you feel. REINFORCE (reward) the person ahead of time (so to speak) by explaining positive effects of getting what you want or need. If necessary, also clarify the negative consequences of not getting what you want or need.",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
                     "name": "MAN",
-                    "description": "Test Description",
+                    "description": "MINDFUL Keep your focus on your goals.Maintain your position. Don’t be distracted. Don’t get off the topic.Keep asking, saying no, or expressing your opinion over and over and over. Just keep replaying the same thing again and again. APPEAR effective and compentent. Use a confident voice tone and physical manner; make good eye contact. No stammering, whispering, staring at the floor, retreating. No saying, “I’m not sure,” etc. NEGOTIATE Be willing to give to get. Offer and ask for other solutions to the problem. Reduce your request. Say no, but offer to do something else or to solve the problem another way. Focus on what will work.",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
                     "name": "GIVE",
-                    "description": "Test Description",
+                    "description": "Be GENTLE: Be nice and respectful. Act INTERESTED: Listen and appear interested in the other person. VALIDATE with words and actions. Show that you understand the other person's feelings and thoughts about the situation. See the world from the other person's point of view, and then say or act on what you see. Use an EASY MANNER: Use a little humor and smile. Ease the person along. Be light-hearted. Sweet-talk.",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
                     "name": "FAST",
-                    "description": "Test Description",
+                    "description": "Be FAIR to yourself and to the other person. Remember to validate your own feelings and wishes as well as the other person's. No APOLOGIES: Dont overapologize. No apologizing for making the request, having an opinion, nor disagreeing. No looking ashamed with eyes and head down or body slumped. No invalidating the valid. STICK TO YOUR OWN VALUES: Dont sell out your values or integrity for reasons that aren't very important. Be clear on what you believe the moral or valued way of thinking and acting, and stick to your guns. TRUTHFUL: Don’t lie. Don’t act helpless when you are not. Don’t exaggerate or make up excuses.",
                     "example": "Test example"
                 },
                 {
                     "id": 5,
                     "name": "Walk the Middle Path",
-                    "description": "...",
+                    "description": "DIALECTICS: Balancing opposites while entering the paradox of yes and no, true and not true, at the very same time. VALIDATION: Including the valid and understanable in ourselves and others. RECOVERING FROM INVALIDATION: From a nondefensive position, find the valid, acknowledge the invalid, and radically accept yourself. STRATEGIES FOR CHANGING BEHAVIOR: Use behavioral principles to increase desired behaviors and decrease undesired behaviors.",
                     "example": "..."
                 },
                 {
                     "id": 6,
                     "name": "Validation",
-                    "description": "...",
+                    "description": "Finding the kernel of truth in another person’s perspective or situation; verifying the facts of a situation. Acknowledging that a person’s emotions, thoughts, and behaviors have causes and are therefore understandable.Not necessarily agreeing with the other person. Not validating what is actually invalid.",
                     "example": "..."
                 },
                 {
                     "id": 7,
                     "name": "Strategies to Change Behavior",
-                    "description": "...",
+                    "description": "Context counts: A reinforcer in one situation can be punishment in another. Quantity counts: If a reinforcer is too little or too much, it will not work. Natural consequences work best: Let them do the work when possible. Ask what consequence the person woulf work to get or work hard to avoid. Observe changes in behavior when a consequence is applied.",
                     "example": "..."
                 }
             ]
@@ -81,49 +80,49 @@
                 {
                     "id": 1,
                     "name": "Check the Facts",
-                    "description": "Test Description",
+                    "description": "It is hard to problem-solve an emotional situation if you don’t have your facts straight. You must know what the problem is before you can solve it. This worksheet helps you figure out whether it is the event that is causing your emotion, your interpretation of the event, or both. Use your mindfulness skills of observing and describing. Observe the facts, and then describe the facts you have observed",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
                     "name": "Opposite Action",
-                    "description": "Test Description",
+                    "description": "Select a current or recent emotional reaction that you find painful or want to change. Figure out if the emotion fits the facts. If it does not, then notice your action urges; figure out what would be opposite actions; and then do the opposite actions. Remember to practice opposite action all the way. Describe what happened.",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
                     "name": "Problem Solving",
-                    "description": "Test Description",
+                    "description": "Describe the problem prompting your emotions. What makes the situation a problem? Describe what you did to be sure of your facts. What has to happen for you to think you have made progress? List as many solutions and coping strategies as you can think of without evaluating them. Categorize ideas into which are most likely to meet your goal feasibly. Choose the solution to try and list the steps needed. Check the steps and how well they work. Did you reach your goal? If so, describe. If not, what can you do next?",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
                     "name": "Accumulate Positive Emotions",
-                    "description": "Test Description",
+                    "description": "SHORT-TERM: Do pleasant things that are possible now. LONG-TERM: Make changes in your life so that positive events will happen more often in the future. Build a life worth living.",
                     "example": "Test example"
                 },
                 {
                     "id": 5,
                     "name": "Build Mastery",
-                    "description": "...",
+                    "description": "Do things that make you feel competent and effective to combat helplessness and hopelessness.",
                     "example": "..."
                 },
                 {
                     "id": 6,
                     "name": "Cope Ahead",
-                    "description": "...",
+                    "description": "Rehearse a plan ahead of time so that you are prepared to cope skillfully with emotional situations.",
                     "example": "..."
                 },
                 {
                     "id": 7,
                     "name": "PLEASE",
-                    "description": "...",
+                    "description": "Treat physical illness (if sick), balance eating, avoid mood-altering substances, balance Sleep, and get exercise",
                     "example": "..."
                 },
                 {
                     "id": 8,
                     "name": "Mindfulness of Current Emotion",
-                    "description": "Test Description",
+                    "description": "Suppressing emotion increases suffering. Mindfulness of current emotions is the path to emotional freedom. Let your emotions flow and set time aside to feel them fully. Recognize what your emotions are and look within yourself to understand it better.",
                     "example": "..."
                 }
             ]
@@ -136,55 +135,55 @@
                 {
                     "id": 1,
                     "name": "STOP",
-                    "description": "Test Description",
+                    "description": "STOP: Do not just react. Stop! Freeze! Do not move a muscle! Your emotions may try to make you act without thinking. Stay in control! TAKE A STEP BACK: Take a step back from the situation. Take a break. Let go. Take a deep breath. Do not let your feelings make you act impulsively. OBSERVE: Notice what is going on inside and outside you. What is the situation? What are your thoughts and feelings? What are others saying or doing? PROCEED MINDFULLY: Act with awareness. In deciding what to do, consider your thoughts and feelings, the situation, and other people’s thoughts and feelings. Think about your goals. Ask Wise Mind: Which actions will make it better or worse?",
                     "example": "Test example"
                 },
                 {
                     "id": 2,
                     "name": "Pros and Cons",
-                    "description": "Test Description",
+                    "description": "Use pros and cons any time you have to decide between two courses of action. An urge is a crisis when it is very strong and when acting on the urge will make things worse in the long term. Make a list of the pros and cons of acting on your crisis urges. These might be to engage in dangerous, addictive, or harmful behaviors, or they might be to give in, give up, or avoid doing what is necessary to build a life you want to live. Make another list of the pros and cons of resisting crisis urges—that is, tolerating the distress and not giving in to the urges. ",
                     "example": "Test example"
                 },
                 {
                     "id": 3,
                     "name": "TIP",
-                    "description": "Test Description",
+                    "description": "TIP The TemPeraTure of your face with cold watrer (to calm down fast). INTENSE EXERCISE (to calm down your body when it is revved up by emotion). PACED BREATHING (pace your breathing by slowing it down). PAIRED MUSCLE RELAXATION (to calm down by pairing muscle relaxation with breathing out).",
                     "example": "Test example"
                 },
                 {
                     "id": 4,
-                    "name": "Distract",
-                    "description": "Test Description",
+                    "name": "Distract with ACCEPTS",
+                    "description": " Perform one ot more of the following to distract your mind from the situation: ACTIVITIES, CONTRIBUTIONS, COMPARISONS, EMOTIONS, PUSHING AWAY, THOUGHTS, SENSATIONS.",
                     "example": "Test example"
                 },
                 {
                     "id": 5,
                     "name": "Self-Soothe",
-                    "description": "...",
+                    "description": "Pleasure yourself with a sense at a time. The senses are vision, hearing, smell, taste, touch. The following are examples of each sense. VISION: Look at the stars at night, look at pictures you might like, buy a flower to look at, light a candle and watch the flame. HEARING: Listen to soothing or invigorating music, pay attention to sounds of nature, sing your favorite songs, humm a soothing tune, learn to play an insturement. SMELL: Use your favorite soap, shampoo, aftershave, cologne, or lotions, or try them on in the store. Burn incense or light a scented candle. Open a package of coffee and inhale the aroma, put a lrmon oil in your furniture, put potpourri or eucalyptus oil in a bown in your room. TASTE: Eat some of your favorite foods. Drink your favorite soothing drink, such as herbal tea, hot chocolate, a latté, or a smoothie, treat yourself to a dessert, eat macaroni and cheese or another favorite childhood food, sample flavors in an ice cream store. TOUCH: Take a long hot bath or shower, pet your dog or cat, have a massage, soak your feet, put creamy lotion on your whole body, put a cold compress on your forehead, sink into a comfortable chair in your home, Put on a blouse or shirt that has a pleasant feel.",
                     "example": "..."
                 },
                 {
                     "id": 6,
                     "name": "Improve the Moment",
-                    "description": "...",
+                    "description": "The following are lists of examples of ways to improve the moment. With IMAGERY: Imagine very relaxing scenes, Imagine a secret room within yourself. Furnish it the way you like. Close and lock the door on anything that can hurt you, imagine everything going well, make up a calming fantasy world. With MEANING: Find purpose or meaning in a painful situation, focus on whatever positive aspects of a painful situation you can find, repeat these positive aspects in your mind. With PRAYER: Open your heart to a supreme being, God, or your own Wise Mind, ask for strength to bear the pain, Turn things over to God or a higher being. With RELAXING ACTIONS: Take a hot bath or sit in a hot tub, drink hot milk, meassage your neck and scalp, practice yoga or other stretching. With a brief VACATION: Get in bed; pull the covers up over your head, focus you mindset on making it out of the situation and/or understanding you are doing the best you can, repeat over and over the words I can stand it. ",
                     "example": "..."
                 },
                 {
                     "id": 7,
                     "name": "Radical Acceptance",
-                    "description": "...",
+                    "description": "Radical means all the way, complete and total. RADICAL ACCEPTANCE is accepting in your mind, your heart, and your body. It’s when you stop fighting reality, stop throwing tantrums because reality is not the way you want it, and let go of bitterness. WHAT HAS TO BE ACCEPTED? Reality is as it is (the facts about the past and the present are the facts, even if you don’t like them). There are limitations on the future for everyone (but only realistic limitations need to be accepted). Everything has a cause (including events and situations that cause you pain and suffering). Life can be worth living even with painful events in it. WHY ACCEPT REALITY? Rejecting reality does not change reality. Changing reality requires first accepting reality. Pain can’t be avoided; it is nature’s way of signaling that something is wrong. Rejecting reality turns pain into suffering. Refusing to accept reality can keep you stuck in unhappiness, bitterness, anger, sadness, shame, or other painful emotions. Acceptance may lead to sadness, but deep calmness usually follows. The path out of hell is through misery. By refusing to accept the misery that is part of climbing out of hell, you fall back into hell.",
                     "example": "..."
                 },
                 {
                     "id": 8,
-                    "name": "Half-Smile/Willing Hands",
-                    "description": "...",
+                    "name": "Half-Smiling and Willing Hands",
+                    "description": "HALF-SMILING: FIRST, relax your face from the top of your head down to your chin and jaw. Let go of each facial muscle (forehead, eyes, and brows; cheeks, mouth, and tongue; teeth slightly apart). If you have difficulty, try tensing your facial muscles and then letting go. A tense smile is a grin (and might tell your brain you are hiding or masking your real feelings). SECOND, let both corners of your lips go slightly up, just so you can feel them. It is not necessary for others to see it. A half-smile is slightly upturned lips with a relaxed face. THIRD, Try to adopt a serene facial expression. Remember, your face communicates to your brain; your body connects to your mind. WILLING HANDS: STANDING Drop your arms down from your shoulders; keep them straight or bent slightly at the elbows. With hands unclenched, turn your hands outward, with thumbs out to your sides, palms up, and fingers relaxed. SITTING Place your hands on your lap or your thighs. With hands unclenched, turn your hands outward, with palms up and fingers relaxed. LYING DOWN Arms by your side, hands unclenched, turn your palms up with fingers relaxed. NOTE: Remember, your hands communicate to your brain; your body connects to your mind.",
                     "example": "..."
                 },
                 {
                     "id": 9,
-                    "name": "Willingness/Mindfulness of Current Thoughts",
-                    "description": "...",
+                    "name": "Mindfulness of Current Thoughts",
+                    "description": "Describe your efforts to observe your thoughts in the past week. Practice observing thoughts each day at least once. Don’t focus just on thoughts that are painful, anxiety-provoking, or full of anger; also observe and be mindful of pleasant or neutral thoughts. For each thought, first practice saying, “The thought [describe thought] went through my mind.” Then practice one or more strategies to observe and let go of thoughts. 1. Used words and voice tone to say a thought over and over; as fast as I could; very, very slowly; in a voice different from mine; as a dialogue on a TV comedy show; or as singing. 2. Relaxed my face and body imagining accepting my thoughts as sensations of my brain. 3. Imagined what I would do if I stopped believing everything I think. 4. Rehearsed in my mind what I would do if I did not view my thoughts as facts. 5. Practiced loving my thoughts as they went through my mind. 6. Refocused my mind on sensations I was avoiding by worrying or catastrophizing. 7. Allowed my thoughts to come and go as I focused on observing my breath coming in and out. 8. Labeled the thought as a thought, saying, 'The thought [describe thought] arose in my mind.' 9. Asked, “Where did the thought come from?” and watched my mind to find out. 10. Stepped back from my mind, as if I was on top of a mountain. 11. Shuttled back and forth between scanning for physical sensations and scanning for thoughts. Imagined that in my mind thoughts were coming down a conveyor belt; were boats on a river; were train cars on a railroad track; were written on leaves flowing down a river; had wings and could fly away; were clouds floating in the sky; or were going in and out of the doors of my mind. (Underline the image you used.)",
                     "example": "..."
                 }
             ]
