@@ -2,13 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import { Switch, SafeAreaView, FlatList, SectionList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, HeaderBackButton } from '@react-navigation/native-stack';
-import { skills } from './skills.json'; 
-import { questions } from './questions.json'; 
-import React, {useLayoutEffect, useState, useEffect } from 'react'; 
+import { skills } from './skills.json';
+import { questions } from './questions.json';
+import React, {useLayoutEffect, useState, useEffect } from 'react';
 
 
 const Stack = createNativeStackNavigator();
-let affirm = false; 
+let affirm = false;
 
 function HomeScreen({ navigation }) {
   let quiz = async () => {
@@ -20,20 +20,20 @@ function HomeScreen({ navigation }) {
   }
 
   let list = () => {
-    navigation.navigate("List"); 
+    navigation.navigate("List");
   }
   const [isEnabled, setIsEnabled] = useState(false);
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
 
   useEffect(() => {
-    //console.log("Affirm changing from " + affirm + " to " + isEnabled); 
-    affirm = isEnabled; 
+    //console.log("Affirm changing from " + affirm + " to " + isEnabled);
+    affirm = isEnabled;
   });
 
   return (
     <View style={styles.container}>
       <View >
-        <Text style={styles.titleText}>Mental Health Excerises using DBT</Text>
+        <Text style={styles.titleText}>Mental Health Exercises Using Dialectical Behavioral Therapy (DBT) Techniques</Text>
         <StatusBar style="auto" />
       </View>
       <View style={styles.btnContainer}>
@@ -66,8 +66,8 @@ function ListScreen({navigation}) {
         style={lstStyles.lstContainer}
         sections={skills}
         renderItem={({ item, section }) => (
-          <TouchableOpacity 
-            key={item.id} 
+          <TouchableOpacity
+            key={item.id}
             onPress={() => {
               navigation.navigate("Skill", {
                 sectionId: section.id,
@@ -95,9 +95,9 @@ function filterById(jsonObject, id) {
 
 
 function SkillDetailScreen({route, navigation}) {
-  let itemParams = route.params; 
-  let section = filterById(skills, itemParams.sectionId); 
-  let item = filterById(section.data, itemParams.itemId); 
+  let itemParams = route.params;
+  let section = filterById(skills, itemParams.sectionId);
+  let item = filterById(section.data, itemParams.itemId);
   return (
     <View style={lstStyles.lstContainer}>
       <View style={lstStyles.headContainer}>
@@ -116,12 +116,12 @@ function SkillDetailScreen({route, navigation}) {
 function DoneScreen({route, navigation}) {
   let skillIds = route.params;
   let skillList =[];
-  let count = 0; 
+  let count = 0;
 
   skillIds.forEach(element => {
     const [sectionId, itemId] = element.split(":");
     let section = filterById(skills, parseInt(sectionId));
-    let item = filterById(section.data, parseInt(itemId)); 
+    let item = filterById(section.data, parseInt(itemId));
     let suggestion = {
       id: count,
       sectionId: sectionId,
@@ -129,7 +129,7 @@ function DoneScreen({route, navigation}) {
       item: item
     }
     skillList.push(suggestion);
-    count++; 
+    count++;
   });
 
   return (
@@ -142,8 +142,8 @@ function DoneScreen({route, navigation}) {
       <FlatList
         data={skillList}
         renderItem={({ item }) => (
-          <TouchableOpacity 
-            key={item.id} 
+          <TouchableOpacity
+            key={item.id}
             onPress={() => {
               navigation.navigate("Skill", {
                 sectionId: item.sectionId,
@@ -162,8 +162,8 @@ function DoneScreen({route, navigation}) {
 }
 
 function QuestionScreen({route, navigation}) {
-  let question = route.params;  
-  let curQuestion = filterById(questions, question.id); 
+  let question = route.params;
+  let curQuestion = filterById(questions, question.id);
 
   let nextQuestion = (option) => {
     if(option.nextQuestion==-1){
@@ -174,10 +174,10 @@ function QuestionScreen({route, navigation}) {
         questionNum: question.questionNum+1,
         answer: option.answer
       });
-    }    
+    }
   }
 
-  let questionText = curQuestion.affirmation.trim() == "" ? curQuestion.question : curQuestion.affirmation+ " " + curQuestion.question; 
+  let questionText = curQuestion.affirmation.trim() == "" ? curQuestion.question : curQuestion.affirmation+ " " + curQuestion.question;
 
   if(!affirm)
     questionText = curQuestion.question;
@@ -192,8 +192,8 @@ function QuestionScreen({route, navigation}) {
         <FlatList
           data={curQuestion.options}
           renderItem={({ item }) => (
-            <TouchableOpacity 
-              key={item.id} 
+            <TouchableOpacity
+              key={item.id}
               onPress={() => nextQuestion(item)}
             >
               <Text style={questionStyles.row}>{item.answer}</Text>
@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 20,
     color: '#fff',
-  }, 
+  },
   row: {
     padding: 15,
     marginBottom: 5,
@@ -262,8 +262,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   titleText: {
-    color: '#888', 
-    fontSize: 35, 
+    color: '#888',
+    fontSize: 35,
     textAlign: 'center'
   }
 });
@@ -288,15 +288,15 @@ const lstStyles = StyleSheet.create({
     padding: 15,
     marginBottom: 5,
     fontWeight: 'bold',
-    color: '#888', 
-    fontSize: 30, 
+    color: '#888',
+    fontSize: 30,
     textAlign: 'center'
   },
   lstDetailRecord: {
     padding: 15,
     marginBottom: 5,
-    color: '#888', 
-    fontSize: 20, 
+    color: '#888',
+    fontSize: 20,
   },
 });
 
@@ -345,8 +345,8 @@ const questionStyles = StyleSheet.create({
     borderRadius: 5,
   },
   questionText: {
-    color: '#888', 
-    fontSize: 35, 
+    color: '#888',
+    fontSize: 35,
     textAlign: 'center'
   }
 });
