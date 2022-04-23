@@ -22,13 +22,6 @@ function HomeScreen({ navigation }) {
   let list = () => {
     navigation.navigate("List");
   }
-  const [isEnabled, setIsEnabled] = useState(false);
-  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
-
-  useEffect(() => {
-    //console.log("Affirm changing from " + affirm + " to " + isEnabled);
-    affirm = isEnabled;
-  });
 
   return (
     <View style={styles.container}>
@@ -45,15 +38,6 @@ function HomeScreen({ navigation }) {
         <TouchableOpacity onPress={list} style={styles.button}>
           <Text style={styles.buttonText}>List of Skills</Text>
         </TouchableOpacity>
-      </View>
-      <View style={styles.btnContainer}>
-        <Switch
-          trackColor={{ false: '#767577', true: '#81b0ff' }}
-          thumbColor={isEnabled ? '#f5dd4b' : '#f4f3f4'}
-          ios_backgroundColor="#3e3e3e"
-          onValueChange={toggleSwitch}
-          value={isEnabled}
-        />
       </View>
     </View>
   )
@@ -177,10 +161,7 @@ function QuestionScreen({route, navigation}) {
     }
   }
 
-  let questionText = curQuestion.affirmation.trim() == "" ? curQuestion.question : curQuestion.affirmation+ " " + curQuestion.question;
-
-  if(!affirm)
-    questionText = curQuestion.question;
+  let questionText = curQuestion.question;
 
   return (
     <View style={questionStyles.mainContainer}>
