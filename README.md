@@ -5,7 +5,7 @@
 ### Prerequesites
 - Install npm libs
 
-<sudo apt install npm>   
+sudo apt install npm  
 
 sudo snap install node --classic #install nodejs version 16
 
