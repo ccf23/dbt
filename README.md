@@ -29,3 +29,12 @@ npm install
 
 
 expo start --web 
+
+### Video demonstration of 4/24/22 version of main branch
+
+https://user-images.githubusercontent.com/60208795/164960131-622861b1-384f-4a2d-b626-7315769559ef.mp4
+
+
+<Video demonstration of 4/24/22 version of toggle between main and affirmations branch>
+
+
