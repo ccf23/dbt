@@ -2,7 +2,7 @@
 
 ## Ubuntu 20.04
 
-### Prereq:
+### Prerequesites
 - Install npm libs
 
 sudo apt install npm   
