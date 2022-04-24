@@ -3,12 +3,18 @@
 ## Ubuntu 20.04
 
 ### Prereq:
-sudo apt install npm   #install npm
+- Install npm libs
+
+sudo apt install npm   
+
 sudo snap install node --classic #install nodejs version 16
+
 npm install --global expo-cli
 
 ### Test
-expo --version # if this does not give an error or red writings, move to next step
+expo --version 
+
+- If this command does not give an error or red writings, move to next step
 
 ### Run
 - Clone the repo with github token
