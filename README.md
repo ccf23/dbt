@@ -11,6 +11,9 @@ npm install --global expo-cli
 expo --version # if this does not give an error or red writings, move to next step
 
 ### Run
-git clone https://github.com/BeStillAsBright/dbt.git # Clone the repo with github token
+- Clone the repo with github token
+git clone https://github.com/BeStillAsBright/dbt.git
+- Install npm if running dbt dir for the forst time
 npm install
-expo start --web  # can be <--ios> or <--android> as well
+- Final run command (can be <--ios> or <--android> instead)
+expo start --web 
