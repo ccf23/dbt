@@ -1,6 +1,6 @@
 # DBT Skills App 
 
-##Ubuntu 20.04
+#Ubuntu 20.04
 
 ###Prereq:
 sudo apt install npm   #install npm
